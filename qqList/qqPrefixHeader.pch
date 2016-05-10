@@ -1,0 +1,24 @@
+//
+//  qqPrefixHeader.pch
+//  qqList
+//
+//  Created by MAX-TECH on 16/4/1.
+//  Copyright © 2016年 zhangq. All rights reserved.
+//
+
+#ifndef qqPrefixHeader_pch
+#define qqPrefixHeader_pch
+
+#pragma mark - rgb 颜色
+#define RGBACOLOR(R,G,B,A) [UIColor colorWithRed:(R)/255.0f green:(G)/255.0f blue:(B)/255.0f alpha:(A)]
+
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* qqPrefixHeader_pch */
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
