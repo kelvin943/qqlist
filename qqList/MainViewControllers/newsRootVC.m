@@ -271,7 +271,13 @@
     }
 
     [self.navigationController pushViewController:messageVC animated:YES];
+
 }
+
+-(void) tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+}
+
 
 - (IBAction)addNewFriendBtnClick:(UIBarButtonItem *)sender {
     [self performSegueWithIdentifier:@"showAdd" sender:nil];
