@@ -22,6 +22,7 @@
 {
 
     [self.headImage sd_setImageWithURL:[NSURL URLWithString:authorsInfo.avatar] placeholderImage:[UIImage imageNamed:@"defaultHeadImage"]];
+    self.headImage.layer.masksToBounds =YES;
     
     self.nikName.text = authorsInfo.nickname;
     self.messageL.text =@"hionfaodf12312";
