@@ -12,10 +12,28 @@
 #pragma mark - rgb 颜色
 #define RGBACOLOR(R,G,B,A) [UIColor colorWithRed:(R)/255.0f green:(G)/255.0f blue:(B)/255.0f alpha:(A)]
 
+#pragma mark - 屏幕宽高
 #define kScreenWidth  [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
+#pragma mark - printf自定义打印控制台日志
+#define LogFileName [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
+#define ZQLog(...) printf("%s:第%d行 -> %s\n\n",[LogFileName UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+
+#pragma mark - TODO宏
+#define STRINGIFY(S) #S
+#define DEFER_STRINGIFY(S) STRINGIFY(S)
+#define PRAGMA_MESSAGE(MSG) _Pragma(STRINGIFY(message(MSG)))
+#define FORMATTED_MESSAGE(MSG) "[TODO-" DEFER_STRINGIFY(__COUNTER__) "] " MSG " \n" \
+DEFER_STRINGIFY(__FILE__) " line " DEFER_STRINGIFY(__LINE__)
+#define KEYWORDIFY @try {} @catch (...) {}
+// 最终使用下面的宏
+#define TODO(MSG) KEYWORDIFY PRAGMA_MESSAGE(FORMATTED_MESSAGE(MSG))
+
+
 #endif /* qqPrefixHeader_pch */
+
+
 
 
 #ifdef __OBJC__

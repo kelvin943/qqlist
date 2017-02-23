@@ -7,17 +7,39 @@
 //
 
 #import "undefineVC.h"
+#import "UIButton+WebCache.h"
 
 @interface undefineVC ()
 
+@property (nonatomic,assign)NSInteger mfaf;
 @end
 
 @implementation undefineVC
+
+
+  //TODO("23424");
+
+#pragma mark - 123123
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"敬请期待";
+
+    
+    UIButton *testBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [testBtn sd_setImageWithURL:@"1231" forState:UIButtonTypeCustom];
+
+
+    
+
+}
+
+-(void) showTest
+{
+    
+    
+  
 }
 
 - (void)didReceiveMemoryWarning {
