@@ -42,7 +42,7 @@
 		5EFCF2001CB16E8E00A2D1F2 /* UIImage+ResizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF1FF1CB16E8E00A2D1F2 /* UIImage+ResizeImage.m */; };
 		5EFCF2031CB1798F00A2D1F2 /* newsObserverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCF2021CB1798F00A2D1F2 /* newsObserverModel.m */; };
 		B66E1BFD1E5EB72C006B224D /* testVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B66E1BFC1E5EB72C006B224D /* testVC.m */; };
-		D42425DCB3DF80E60705F1B7 /* libPods-qqList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C816A12459E9A498AEAB6360 /* libPods-qqList.a */; };
+		C5BC45A2C00B9B7E2228BC83 /* Pods_qqList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4C92D88E974E9B7B13AB22 /* Pods_qqList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B4C92D88E974E9B7B13AB22 /* Pods_qqList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qqList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FE7371CAF9BE30048E77F /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
 		5E1FE7381CAF9BE30048E77F /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		5EDB8E771CAE49D100B704F6 /* qqList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qqList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +133,6 @@
 		A4D9CB3D3A0696B108838FFD /* Pods-qqList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qqList.release.xcconfig"; path = "Pods/Target Support Files/Pods-qqList/Pods-qqList.release.xcconfig"; sourceTree = "<group>"; };
 		B66E1BFB1E5EB72C006B224D /* testVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testVC.h; sourceTree = "<group>"; };
 		B66E1BFC1E5EB72C006B224D /* testVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testVC.m; sourceTree = "<group>"; };
-		C816A12459E9A498AEAB6360 /* libPods-qqList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qqList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9310480A1047727C0415FC6 /* Pods-qqList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qqList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qqList/Pods-qqList.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42425DCB3DF80E60705F1B7 /* libPods-qqList.a in Frameworks */,
+				C5BC45A2C00B9B7E2228BC83 /* Pods_qqList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +165,7 @@
 		3A8C2D2A88F9FDF9C3357F14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C816A12459E9A498AEAB6360 /* libPods-qqList.a */,
+				0B4C92D88E974E9B7B13AB22 /* Pods_qqList.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
