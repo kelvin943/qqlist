@@ -448,6 +448,7 @@
 				TargetAttributes = {
 					5EDB8E761CAE49D100B704F6 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DW4EHKV48E;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -733,7 +734,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DW4EHKV48E;
 				GCC_PREFIX_HEADER = qqList/qqPrefixHeader.pch;
 				INFOPLIST_FILE = qqList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -749,7 +750,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DW4EHKV48E;
 				GCC_PREFIX_HEADER = qqList/qqPrefixHeader.pch;
 				INFOPLIST_FILE = qqList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
