@@ -14,6 +14,8 @@
 #define kToolBarH 64
 #define kTextFieldH 30
 
+
+
 @interface MessageVC ()<UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
 {
     NSMutableArray *_cellFrameDatas;
@@ -28,7 +30,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
+    //TODO: SOME PROBLEM HERE;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillChange:) name:UIKeyboardWillChangeFrameNotification object:nil];
     
     //0.加载数据
@@ -39,6 +42,7 @@
     
     //2.工具栏
     [self addToolBar];
+    
 }
 
 /**
