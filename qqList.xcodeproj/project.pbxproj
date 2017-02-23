@@ -457,7 +457,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -744,7 +744,7 @@
 				GCC_PREFIX_HEADER = qqList/qqPrefixHeader.pch;
 				INFOPLIST_FILE = qqList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhangq.qqList;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.zhangq.qqList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -760,7 +760,7 @@
 				GCC_PREFIX_HEADER = qqList/qqPrefixHeader.pch;
 				INFOPLIST_FILE = qqList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhangq.qqList;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.zhangq.qqList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
