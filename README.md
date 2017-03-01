@@ -1,3 +1,6 @@
 # qqlist
 仿写qq列表界面
-![](IMG_2649.PGN)   ![](IMG_2650.PGN)
+
+![](https://github.com/kelvin943/qqlist/blob/master/IMG_2650.PNG)   
+
+![](https://github.com/kelvin943/qqlist/blob/master/IMG_2649.PNG)
